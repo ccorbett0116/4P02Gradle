@@ -12,7 +12,7 @@ public class RoutingExample {
     public static void main(String[] args) {
         // Initialize GraphHopper
         GraphHopper hopper = new GraphHopper();
-        hopper.setOSMFile("ontario.osm.pbf"); // You'll need to download this file
+        hopper.setOSMFile("ontario-latest.osm.pbf"); // You'll need to download this file
         hopper.setGraphHopperLocation("graph-cache");
 
         // Set up the routing profile
